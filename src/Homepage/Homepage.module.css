@@ -1,0 +1,28 @@
+.Homepage{
+    position: absolute;
+      top: 24px;
+      left: 24px;
+      color: #fff748;
+      font-size: 20px;
+      text-decoration: underline;
+  }
+  
+  .MainHeading{
+      font-size: 90px;
+      text-align: center;
+      color: #fad744;
+      text-shadow: 2px 5px #2b3252;
+      margin: 0;
+  }
+  
+  .PlayerSection{
+    width: 100%;
+    background-color: white;
+    border-radius: 6px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+  }
+  

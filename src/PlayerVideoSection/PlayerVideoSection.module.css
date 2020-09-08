@@ -1,0 +1,74 @@
+.PlayerWrapper {
+    width: 70%;
+    padding-right: 16px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .VideoPlayer{
+    width: 100%;
+    height: 400px;
+  }
+  
+  .VideoDesc{
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .VideoDesc > p{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    margin-top: 16px;
+  }
+
+  .innerDiv{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .innerDiv > i{
+    font-size: 24px;
+    /* color: rgba(0, 0, 0, 0.7); */
+    margin-right: 20px;
+    margin-top: 16px;
+    cursor: pointer;
+  }
+  
+  .VideoDesc > i{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-right: 20px;
+    margin-top: 16px;
+    cursor: pointer;
+  }
+  
+  .VideoTitle{
+    font-size: 36px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      border-top: 1px solid #ccc;
+      padding-top: 16px;
+  }
+  
+  .VideoDescription{
+    font-size: 20px;
+      letter-spacing: 1px;
+      line-height: 1.3;
+      margin-top: 0;
+      color: rgba(0, 0, 0, 0.7);
+  }
+
+  .Yellow{
+      color: #FAD744;
+  }
+
+  /* .far .fa-heart{
+    color: #FAD744;
+  }
+
+  .fa .fa-bookmark{
+    color: #FAD744;
+  } */
