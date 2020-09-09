@@ -65,10 +65,10 @@
       color: #FAD744;
   }
 
-  /* .far .fa-heart{
-    color: #FAD744;
+  .far .fa-heart{
+    color: rgba(0, 0, 0, 0.7);
   }
 
   .fa .fa-bookmark{
-    color: #FAD744;
-  } */
+    color: rgba(0, 0, 0, 0.7);
+  }

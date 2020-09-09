@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 class PlayListCard extends React.Component{
     state = {
         Cards: [],
-        id: this.props.videoId
+        // id: this.props.videoId
     }
 
     componentDidMount(){

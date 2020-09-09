@@ -6,8 +6,7 @@ import axios from 'axios';
 class PlayerVideoSection extends React.Component{
     state = {
         videoData: {},
-        isLiked: false,
-        isSaved: false
+       
     }
 
     componentDidMount(){
@@ -48,10 +47,10 @@ class PlayerVideoSection extends React.Component{
                         <p><span className={classes.ViewsCount}>{this.state.videoData.views}</span>views</p> 
                         <div className={classes.innerDiv}>  
                         {/* //this.state.videoData.isLiked ? classes.Yellow : null} */}
-                             
-                             <i className={this.state.videoData.isLiked === true || this.state.videoData.isLiked === 'true' ? ["far", "fa-heart", classes.Yellow].join(' ') : null}></i>
+                             {/* <i className={this.state.videoData.isLiked === true || this.state.videoData.isLiked === 'true' ? ["far", "fa-heart", classes.Yellow].join(' ') : null}></i> */}
+                             <i className={`${["far", "fa-heart"].join(' ')} ${this.state.videoData.isLiked === true || this.state.videoData.isLiked === 'true' ? ["far", "fa-heart", classes.Yellow].join(' ') : null}`}></i>
                              <i className="far fa-comment-alt"></i>
-                             <i className={this.state.videoData.isSaved === true || this.state.videoData.isSaved === 'true' ? ["far", "fa-bookmark", classes.Yellow].join(' ') : null}></i>
+                             <i className={`${["far", "fa-bookmark"].join(' ')} ${this.state.videoData.isSaved === true || this.state.videoData.isSaved === 'true' ? ["far", "fa-bookmark", classes.Yellow].join(' ') : null}`}></i>
                              
                                                                             
                         </div>
